@@ -23,6 +23,7 @@ Where each colored block (conv block) are convolution followed by a **ReLU**
 ![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/alexnet/alexnet%20-%20conv%20blocks.png?raw=true)
 
 And each white blocks are just fully connected layer followed by a **ReLU**
+
 ![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/alexnet/alexnet%20-%20fc%20blocks.png?raw=true)
 # TODO
 List of models to draw
