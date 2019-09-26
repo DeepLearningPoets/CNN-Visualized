@@ -1,5 +1,6 @@
 # CNN-Visualized
-
+## How to read the images 
+- [ ] TODO explain how the design works 
 # Template
 ## [Title]()
 *Authors*
@@ -12,10 +13,17 @@ Lorem Ipsum (fast description)
 *Alex Krizhevsky, Ilya Sutskever, 
 Geoffrey E. Hinton* - 2010
 
-Alexnet started the deep learning revolution, it is a very simple model composed by convolution/relu block followed by three big fully connected layers. The
+Alexnet started the deep learning revolution, it is a very simple model composed by convolution/relu block followed by three big fully connected layers. 
 
-![alt](https://kharshit.github.io/img/resnet_50.png)
 
+![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/alexnet/alexnet.png?raw=true)
+
+Where each colored block (conv block) are convolution followed by a **ReLU**
+
+![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/alexnet/alexnet%20-%20conv%20blocks.png?raw=true)
+
+And each white blocks are just fully connected layer followed by a **ReLU**
+![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/alexnet/alexnet%20-%20fc%20blocks.png?raw=true)
 # TODO
 List of models to draw
 
