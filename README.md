@@ -8,6 +8,14 @@ Lorem Ipsum (fast description)
 
 ![alt](https://kharshit.github.io/img/resnet_50.png)
 
+## [Alexnet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
+*Alex Krizhevsky, Ilya Sutskever, 
+Geoffrey E. Hinton* - 2010
+
+Alexnet started the deep learning revolution, it is a very simple model composed by convolution/relu block followed by three big fully connected layers. The
+
+![alt](https://kharshit.github.io/img/resnet_50.png)
+
 # TODO
 List of models to draw
 
