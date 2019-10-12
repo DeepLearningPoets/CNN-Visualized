@@ -31,15 +31,21 @@ ResNet introduced residual connection in which the input to a block is added to 
 
 ### ResNet18
 ![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/resnet/ResNet18.png?raw=true)
-*BasicBlock*
+
+#### BasicBlock
+Each basic block is composed by two conv 3x3 with relu and batchnorm
 ![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/resnet/ResNetBasicBlock.png?raw=true)
-*Residual Connection*
-![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/resnet/ResNetDownSamplin.png?raw=true)
+#### Residual Connection
+When the input of a basic block have not the same features of the output of a block, we need downsampling to match the correct features size. This is done in the dotted line by using another conv layer.
+![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/resnet/ResNetDownSampling.png?raw=true)
+TODO
+- [ ] maybe it was a 1x1
 ### ResNet34
 ![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/resnet/ResNet34.png?raw=true)
 ### ResNet50
 ![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/resnet/ResNet50.png?raw=true)
-*BottleNeck Block*
+#### BottleNeck Block
+To reduce the computation footprint, the bottleneck fist reduce the features of the input using a 1x1, apply the expensive 3x3 and then rematch the previous size with another 1x1
 ![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/resnet/ResNetBottleNeck.png?raw=true)
 ### ResNet101
 ![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/resnet/ResNet101.png?raw=true)
