@@ -25,6 +25,27 @@ Where each colored block (conv block) are convolution followed by a **ReLU**
 And each white blocks are just fully connected layer followed by a **ReLU**
 
 ![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/alexnet/alexnet%20-%20fc%20blocks.png?raw=true)
+
+## [ResNet](https://arxiv.org/abs/1512.03385)
+ResNet introduced residual connection in which the input to a block is added to its ouput to boost gradient flow throught the model. They defined two diffent block and stack them together to create different architectures. 
+
+### ResNet18
+![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/resnet/ResNet18.png?raw=true)
+*BasicBlock*
+![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/resnet/ResNetBasicBlock.png?raw=true)
+*Residual Connection*
+![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/resnet/ResNetDownSamplin.png?raw=true)
+### ResNet34
+![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/resnet/ResNet34.png?raw=true)
+### ResNet50
+![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/resnet/ResNet50.png?raw=true)
+*BottleNeck Block*
+![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/resnet/ResNetBottleNeck.png?raw=true)
+### ResNet101
+![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/resnet/ResNet101.png?raw=true)
+### ResNet152
+![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/resnet/ResNet152.png?raw=true)
+
 # TODO
 List of models to draw
 
