@@ -65,6 +65,7 @@ Inception denotes a class of heavily hand-engineered architectures, of which Goo
 - [Inception v1](https://arxiv.org/abs/1409.4842)
 - [Inception v2 and v3](https://arxiv.org/pdf/1512.00567v3)
 - [Inception v4 and Inception ResNet](https://arxiv.org/pdf/1602.07261)
+
 In what follows, we propose the Inception v4 architecture.
 
 ### Inception-v4 modules
