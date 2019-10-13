@@ -62,20 +62,29 @@ In what follows, we propose the Inception v4 architecture.
 
 ### Inception-v4 modules
 The Inception-v4 network is built on six different modules: stem, inception modules A, B and C and reduction modules A and B.
+![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/inception/Inception.png?raw=true)
 
+#### Filters Concatenation
+Inception modules make a heavy use of filters concatenation, which we represented here with two squared brackets *[ ]*. In this process, filters generated from different convolutional kernels are concatenated and forwarded together. 
 
 #### Stem Module
 The stem module applies some preliminary convolutions.
+![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/inception/InceptionStem.png?raw=true)
 
 #### Inception-A
+![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/inception/InceptionA.png?raw=true)
 
 #### Inception-B
+![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/inception/InceptionB.png?raw=true)
 
 #### Inception-C
+![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/inception/InceptionC.png?raw=true)
 
 #### Reduction-A
+![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/inception/ReductionA.png?raw=true)
 
 #### Reduction-B
+![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/inception/ReductionB.png?raw=true)
 
 
 
