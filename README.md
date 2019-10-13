@@ -1,6 +1,9 @@
 # CNN-Visualized
 ## How to read the images 
+We used [figma](www.figma.com) to create all the networks. Each rectangle represent an operation, for example.
 - [ ] TODO explain how the design works 
+# Legend
+
 # Template
 ## [Title]()
 *Authors*
@@ -13,8 +16,7 @@ Lorem Ipsum (fast description)
 *Alex Krizhevsky, Ilya Sutskever, 
 Geoffrey E. Hinton* - 2010
 
-Alexnet started the deep learning revolution, it is a very simple model composed by convolution/relu block followed by three big fully connected layers. 
-
+Alexnet started the deep learning revolution, it is a very simple model composed by **convolution** and **relu** blocks followed by three big **fully connected** layers. 
 
 ![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/develop/images/alexnet/AlexNet.png?raw=true)
 
@@ -27,13 +29,15 @@ And each white blocks are just fully connected layer followed by a **ReLU**
 ![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/develop/images/alexnet/AlexNetFC.png?raw=true)
 
 ## [ResNet](https://arxiv.org/abs/1512.03385)
+*Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun* - 2015
+
 ResNet introduced residual connection in which the input to a block is added to its ouput to boost gradient flow throught the model. They defined two diffent block and stack them together to create different architectures. 
 
 ### ResNet18
 ![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/develop/images/resnet/ResNet18.png?raw=true)
 
 #### BasicBlock
-Each basic block is composed by two conv 3x3 with relu and batchnorm
+Each *BasicBlock** is composed by two conv 3x3 with relu and batchnorm
 ![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/develop/images/resnet/ResNetBasicBlock.png?raw=true)
 #### Residual Connection
 When the input of a basic block have not the same features of the output of a block, we need downsampling to match the correct features size. This is done in the dotted line by using another conv 1x1 layer.
@@ -43,7 +47,7 @@ When the input of a basic block have not the same features of the output of a bl
 ### ResNet50
 ![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/develop/images/resnet/ResNet50.png?raw=true)
 #### BottleNeck Block
-To reduce the computation footprint, the bottleneck fist reduce the features of the input using a 1x1, apply the expensive 3x3 and then rematch the previous size with another 1x1
+To reduce the computation footprint, the *BottleNeck* block fist reduce the features of the input using a 1x1, apply the expensive 3x3 and then rematch the previous size with another 1x1
 ![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/develop/images/resnet/ResNetBottleNeck.png?raw=true)
 ### ResNet101
 ![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/develop/images/resnet/ResNet101.png?raw=true)
