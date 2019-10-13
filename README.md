@@ -59,6 +59,33 @@ To reduce the computation footprint, the *BottleNeck* block fist reduce the feat
 ### ResNet152
 ![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/develop/images/resnet/ResNet152.png?raw=true)
 
+
+## [Inception](https://arxiv.org/pdf/1602.07261)
+Inception denotes a class of heavily hand-engineered architectures, of which GoogLeNet network was the first example, designed to improve the utilization of computing resources, while getting both the benefit from having small and large convolutional kernels. Since the first release, there have been a progression of improvements on the architecture:
+- [Inception v1](https://arxiv.org/abs/1409.4842)
+- [Inception v2 and v3](https://arxiv.org/pdf/1512.00567v3)
+- [Inception v4 and Inception ResNet](https://arxiv.org/pdf/1602.07261)
+In what follows, we propose the Inception v4 architecture.
+
+### Inception-v4 modules
+The Inception-v4 network is built on six different modules: stem, inception modules A, B and C and reduction modules A and B.
+
+
+#### Stem Module
+The stem module applies some preliminary convolutions.
+
+#### Inception-A
+
+#### Inception-B
+
+#### Inception-C
+
+#### Reduction-A
+
+#### Reduction-B
+
+
+
 # TODO
 List of models to draw
 
