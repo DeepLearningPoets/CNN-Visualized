@@ -77,22 +77,22 @@ Inception modules make a heavy use of filters concatenation, which we represente
 
 #### Stem Module
 The stem module applies some preliminary convolutions.
-![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/inception/InceptionStem.png?raw=true)
+![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/develop/images/inception/InceptionStem.png?raw=true)
 
 #### Inception-A
-![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/inception/InceptionA.png?raw=true)
+![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/develop/images/inception/InceptionA.png?raw=true)
 
 #### Inception-B
-![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/inception/InceptionB.png?raw=true)
+![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/develop/images/inception/InceptionB.png?raw=true)
 
 #### Inception-C
-![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/inception/InceptionC.png?raw=true)
+![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/develop/images/inception/InceptionC.png?raw=true)
 
 #### Reduction-A
-![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/inception/ReductionA.png?raw=true)
+![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/develop/images/inception/ReductionA.png?raw=true)
 
 #### Reduction-B
-![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/master/images/inception/ReductionB.png?raw=true)
+![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/develop/images/inception/ReductionB.png?raw=true)
 
 
 
