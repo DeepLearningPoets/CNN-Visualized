@@ -31,8 +31,9 @@ And each white blocks are just fully connected layer followed by a **ReLU**
 
 ## [U-Net](https://arxiv.org/abs/1512.03385)
 *Olaf Ronneberger, Philipp Fischer, Thomas Brox* - 2015
+U-Net is convolutional network architecture for fast and precise segmentation of images.
 ![alt](https://github.com/DeepLearningPoets/CNN-Visualized/blob/develop/images/unet/UNet.png?raw=true)
-
+Interesting, this architecture can be improved by substituting the left part, *encoder*, with a pretrained ResNet.  
 ## [ResNet](https://arxiv.org/abs/1512.03385)
 *Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun* - 2015
 
